@@ -1,0 +1,45 @@
+p, span, h1, h2, h3, h4, div, a, button, select, input, textarea, .ql-editor.ql-blank.check-form-validity::before {
+  font-family: Arial, Helvetica, sans-serif;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  color: var(--text);
+  fill: var(--text);
+}
+
+p {
+  line-height: 1.5;
+}
+
+.post .title {
+  padding-top: 0.75rem;
+  padding-bottom: 1rem;
+  font-weight: 600;
+}
+
+.post.preview .title {
+  font-size: 1.3rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.5rem;
+}
+
+.post .body {
+  padding-top: 0.25rem;
+}
+
+.post.preview footer {
+  padding-top: 0.5rem;
+}
+
+.post footer {
+  padding-top: 1rem;
+}
+
+.post p {
+  padding-bottom: 0.5rem;
+}
+
+.post ol, .post ul{
+  list-style-position: inside;
+  list-style-type: unset;
+  padding-bottom: 0.75rem;
+  padding-top: 0.5rem;
+}

@@ -1,0 +1,55 @@
+.user {
+  display: block;
+  gap: 0.2rem 0.75rem;
+  align-items: center;
+}
+
+.user.preview {
+  /* padding: 0; */
+}
+
+.user.preview a {
+  display: grid;
+  grid-template-areas:
+    "icon link"
+    "icon name";
+  grid-template-columns: auto 1fr;
+  gap: 0.2rem 0.75rem;
+}
+
+.user a:hover {
+  background-color: vaR(--neutLight);
+}
+
+.user.preview .user-img-wrapper, .user.preview .user-img {
+  grid-area: icon;
+}
+
+.user .to-profile {
+  grid-area: link;
+  height: fit-content;
+}
+
+.user .username {
+  grid-area: name;
+  margin: 0;
+}
+
+.user-img {
+  width: 40px;
+}
+
+.timestamp::before {
+  content: "•";
+}
+
+.user-profile .username {
+  color: var(--text);
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.imgDiv > h2::after {
+  content: "•";
+  margin-left: 0.5rem;
+}

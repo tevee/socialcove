@@ -1,0 +1,98 @@
+[
+  {
+    "id": "c9d6e80e-4ae8-4c40-9381-421340164d8e",
+    "username": "melchan",
+    "password": "pas",
+    "userImage": "http://localhost:1234/userImgBanana.971fd618.png?1712316043685",
+    "created": "2024-04-05T11:20:49.571Z",
+    "posts": [
+      "920a4e1e-79e3-487b-9bb0-c6ab08829258"
+    ],
+    "comments": [],
+    "favoriteCategories": []
+  },
+  {
+    "id": "e536b913-b7d5-4f0a-a269-24792597d638",
+    "username": "Clara",
+    "password": "123",
+    "userImage": "http://localhost:1234/userImgDonut.d6d53db1.png?1712304142892",
+    "created": "2024-04-05T08:06:06.306Z",
+    "posts": [
+      "2fb4e5d7-1563-4077-bb21-9593c5da4622"
+    ],
+    "comments": [
+      "9da7e62d-3d4b-4266-8928-a611fd4e29d6"
+    ],
+    "favoriteCategories": [
+      "Frontend",
+      "Backend",
+      "mildlyinfuriating",
+      "explainlikeimfive"
+    ]
+  },
+  {
+    "id": "6018158b-2d91-4d5f-b45a-2ab27f7a373b",
+    "username": "fifth",
+    "password": "123",
+    "userImage": "http://localhost:1234/userImgPizza.54bcfdca.png?1712302322479",
+    "created": "2024-04-05T07:32:09.192Z",
+    "posts": [],
+    "comments": [],
+    "favoriteCategories": []
+  },
+  {
+    "id": "1f82729b-25b4-477f-979e-d868341d64ad",
+    "username": "fourth",
+    "password": "123",
+    "userImage": "http://localhost:1234/userImgBanana.971fd618.png?1712302305728",
+    "created": "2024-04-05T07:31:51.072Z",
+    "posts": [],
+    "comments": [],
+    "favoriteCategories": []
+  },
+  {
+    "id": "443a3f15-537e-4383-97b7-760a84066b26",
+    "username": "third",
+    "password": "123",
+    "userImage": "http://localhost:1234/userImgDonut.d6d53db1.png?1712302184609",
+    "created": "2024-04-05T07:30:19.444Z",
+    "posts": [],
+    "comments": [
+      "0fb14f8a-3959-4976-8130-056dc4b974bd"
+    ],
+    "favoriteCategories": []
+  },
+  {
+    "id": "4bac4a75-23cb-4a1d-8f08-e8585369e5f2",
+    "username": "chicken",
+    "password": "egg",
+    "userImage": "http://localhost:1234/userImgBanana.971fd618.png?1712302038161",
+    "created": "2024-04-05T07:27:22.530Z",
+    "posts": [
+      "7ee4ec4b-2b91-4897-b42e-f1a98183490a"
+    ],
+    "comments": [],
+    "favoriteCategories": [
+      "Frontend",
+      "Backend",
+      "mildlyinfuriating"
+    ]
+  },
+  {
+    "id": "f97e7ec7-3ec7-4c0f-85a9-b9f930a61e5c",
+    "username": "tomato",
+    "password": "red",
+    "userImage": "http://localhost:1234/userImgBanana.971fd618.png?1712302022653",
+    "created": "2024-04-05T07:27:11.947Z",
+    "posts": [
+      "d1556e04-5466-4064-b509-6c6efb887eb4",
+      "4aaf375d-7fd0-4501-af4e-f2c8e1da84ac",
+      "00ef578f-3487-44d6-9b03-791b90b682ed",
+      "9f6cbda5-2135-4111-9c0e-766f903c2f44"
+    ],
+    "comments": [
+      "0ad3c378-e57e-485d-968e-ada3912346ad"
+    ],
+    "favoriteCategories": []
+  }
+]

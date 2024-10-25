@@ -1,0 +1,38 @@
+[
+  {
+    "id": "0ad3c378-e57e-485d-968e-ada3912346ad",
+    "body": "Very fun",
+    "created": "2024-04-05T07:37:39.241Z",
+    "user": {
+      "id": "f97e7ec7-3ec7-4c0f-85a9-b9f930a61e5c",
+      "username": "tomato",
+      "userImage": "http://localhost:1234/userImgBanana.971fd618.png?1712302022653"
+    },
+    "postId": "d1556e04-5466-4064-b509-6c6efb887eb4",
+    "rating": {
+      "upvotes": [
+        "f97e7ec7-3ec7-4c0f-85a9-b9f930a61e5c"
+      ],
+      "downvotes": []
+    }
+  },
+  {
+    "id": "0fb14f8a-3959-4976-8130-056dc4b974bd",
+    "body": "Third was here",
+    "created": "2024-04-05T07:31:09.805Z",
+    "user": {
+      "id": "443a3f15-537e-4383-97b7-760a84066b26",
+      "username": "third",
+      "userImage": "http://localhost:1234/userImgDonut.d6d53db1.png?1712302184609"
+    },
+    "postId": "7ee4ec4b-2b91-4897-b42e-f1a98183490a",
+    "rating": {
+      "upvotes": [],
+      "downvotes": [
+        "443a3f15-537e-4383-97b7-760a84066b26",
+        "1f82729b-25b4-477f-979e-d868341d64ad",
+        "6018158b-2d91-4d5f-b45a-2ab27f7a373b"
+      ]
+    }
+  }
+]

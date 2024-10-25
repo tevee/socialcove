@@ -1,0 +1,92 @@
+/* label styling */
+.dropdown label {
+  display: flex;
+  padding: 0.5rem;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.dropdown label:hover {
+  background: var(--neutLighter);
+}
+
+.dropdown label .icon {
+  transition: 0.2s;
+}
+
+.dropdown label.open .icon {
+  transform: rotate(180deg);
+}
+
+/* ul styling */
+
+.dropdown .list-wrapper {
+  opacity: 0;
+  overflow: hidden;
+  transition: height 0.2s, opacity 0.2s;
+}
+
+.dropdown label.open ~ .list-wrapper {
+  opacity: 1;
+}
+
+.dropdown li {
+  padding: 0.5rem;
+}
+
+.dropdown li:hover {
+  background-color: var(--neutLighter);
+}
+
+.dropdown a{
+  text-decoration: none;
+  color: var(--text);
+}
+
+
+.sub-category {
+  display: flex;
+  justify-content: space-between;
+}
+
+.favorite.sub-category .favorite-icon{
+  fill: var(--color);
+}
+
+.favorite.sub-category .favorite-icon-outline {
+  stroke: var(--color);
+}
+
+.icon-container {
+  height: 2rem;
+  aspect-ratio: 1/1;
+  padding: 0.25rem;
+  border-radius: 50%;
+}
+
+.favorite-icon {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.favorite-icon-outline {
+  stroke: var(--text);
+}
+
+
+.icon-container:hover {
+  background-color: var(--bg);
+}
+
+.icon-container:hover .favorite-icon {
+  cursor: pointer;
+  fill: var(--color);
+  opacity: 0.7;
+}
+
+.icon-container:hover .favorite-icon-outline {
+  stroke: var(--color);
+}

@@ -1,0 +1,139 @@
+[
+  {
+    "id": "920a4e1e-79e3-487b-9bb0-c6ab08829258",
+    "created": "2024-04-05T11:20:58.694Z",
+    "category": "Backend",
+    "title": "sdf",
+    "body": "&lt;p&gt;sdf&lt;&#x2F;p&gt;",
+    "comments": [],
+    "user": {
+      "id": "c9d6e80e-4ae8-4c40-9381-421340164d8e",
+      "username": "melchan",
+      "userImage": "http://localhost:1234/userImgBanana.971fd618.png?1712316043685"
+    },
+    "rating": {
+      "upvotes": [],
+      "downvotes": []
+    }
+  },
+  {
+    "id": "2fb4e5d7-1563-4077-bb21-9593c5da4622",
+    "created": "2024-04-05T08:12:38.549Z",
+    "category": "Frontend",
+    "title": "Clara wass here",
+    "body": "&lt;p&gt;&lt;strong&gt;ffda&lt;em&gt;dsffdsdsf&lt;&#x2F;em&gt;&lt;&#x2F;strong&gt;&lt;sup&gt;&lt;strong&gt;&lt;em&gt;ddfafda&lt;&#x2F;em&gt;&lt;&#x2F;strong&gt;&lt;&#x2F;sup&gt;&lt;code&gt;&lt;sup&gt;&lt;strong&gt;&lt;em&gt;dsfsdfds&lt;&#x2F;em&gt;&lt;&#x2F;strong&gt;&lt;&#x2F;sup&gt;&lt;&#x2F;code&gt;&lt;img src=&quot;https:&#x2F;&#x2F;i.natgeofe.com&#x2F;n&#x2F;548467d8-c5f1-4551-9f58-6817a8d2c45e&#x2F;NationalGeographic_2572187_square.jpg&quot; class=&quot;linked-image&quot;&gt;&lt;&#x2F;p&gt;",
+    "comments": [],
+    "user": {
+      "id": "e536b913-b7d5-4f0a-a269-24792597d638",
+      "username": "Clara",
+      "userImage": "http://localhost:1234/userImgDonut.d6d53db1.png?1712304142892"
+    },
+    "rating": {
+      "upvotes": [],
+      "downvotes": []
+    }
+  },
+  {
+    "id": "9f6cbda5-2135-4111-9c0e-766f903c2f44",
+    "created": "2024-04-05T07:55:10.855Z",
+    "category": "Frontend",
+    "title": "Hello World plain text",
+    "body": "&lt;p&gt;Hello World&lt;&#x2F;p&gt;",
+    "comments": [],
+    "user": {
+      "id": "f97e7ec7-3ec7-4c0f-85a9-b9f930a61e5c",
+      "username": "tomato",
+      "userImage": "http://localhost:1234/userImgBanana.971fd618.png?1712302022653"
+    },
+    "rating": {
+      "upvotes": [
+        "f97e7ec7-3ec7-4c0f-85a9-b9f930a61e5c"
+      ],
+      "downvotes": [
+        "e536b913-b7d5-4f0a-a269-24792597d638"
+      ]
+    }
+  },
+  {
+    "id": "00ef578f-3487-44d6-9b03-791b90b682ed",
+    "created": "2024-04-05T07:53:56.717Z",
+    "category": "Animal",
+    "title": "Boss",
+    "body": "&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;media1.giphy.com&#x2F;media&#x2F;v1.Y2lkPTc5MGI3NjExa2VvdzJ5ZzcydDI3b3hpMHpsZWk3Y3NnandhdmljN3hzc2c4bHdkMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw&#x2F;vNXIjhl9a99mH88n3x&#x2F;giphy.gif&quot; class=&quot;linked-image&quot;&gt;&lt;&#x2F;p&gt;",
+    "comments": [],
+    "user": {
+      "id": "f97e7ec7-3ec7-4c0f-85a9-b9f930a61e5c",
+      "username": "tomato",
+      "userImage": "http://localhost:1234/userImgBanana.971fd618.png?1712302022653"
+    },
+    "rating": {
+      "upvotes": [
+        "f97e7ec7-3ec7-4c0f-85a9-b9f930a61e5c"
+      ],
+      "downvotes": []
+    }
+  },
+  {
+    "id": "4aaf375d-7fd0-4501-af4e-f2c8e1da84ac",
+    "created": "2024-04-05T07:38:35.108Z",
+    "category": "Frontend",
+    "title": "Hello World edited",
+    "body": "&lt;pre class=&quot;ql-syntax&quot; spellcheck=&quot;false&quot;&gt;hello world\n&lt;&#x2F;pre&gt;",
+    "comments": [],
+    "user": {
+      "id": "f97e7ec7-3ec7-4c0f-85a9-b9f930a61e5c",
+      "username": "tomato",
+      "userImage": "http://localhost:1234/userImgBanana.971fd618.png?1712302022653"
+    },
+    "rating": {
+      "upvotes": [
+        "f97e7ec7-3ec7-4c0f-85a9-b9f930a61e5c"
+      ],
+      "downvotes": []
+    }
+  },
+  {
+    "id": "d1556e04-5466-4064-b509-6c6efb887eb4",
+    "created": "2024-04-05T07:37:23.514Z",
+    "category": "Frontend",
+    "title": "Funny video",
+    "body": "&lt;iframe class=&quot;ql-video&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;true&quot; src=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;embed&#x2F;AHLf6WdK9fo?showinfo=0&quot;&gt;&lt;&#x2F;iframe&gt;&lt;p&gt;&lt;br&gt;&lt;&#x2F;p&gt;",
+    "comments": [
+      "0ad3c378-e57e-485d-968e-ada3912346ad"
+    ],
+    "user": {
+      "id": "f97e7ec7-3ec7-4c0f-85a9-b9f930a61e5c",
+      "username": "tomato",
+      "userImage": "http://localhost:1234/userImgBanana.971fd618.png?1712302022653"
+    },
+    "rating": {
+      "upvotes": [
+        "f97e7ec7-3ec7-4c0f-85a9-b9f930a61e5c"
+      ],
+      "downvotes": []
+    }
+  },
+  {
+    "id": "7ee4ec4b-2b91-4897-b42e-f1a98183490a",
+    "created": "2024-04-05T07:29:04.324Z",
+    "category": "Frontend",
+    "title": "Hello World",
+    "body": "&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;miro.medium.com&#x2F;v2&#x2F;resize:fit:1024&#x2F;0*pl3wnRCOkivJWOxG.png&quot; class=&quot;linked-image&quot;&gt;&lt;&#x2F;p&gt;",
+    "comments": [
+      "0fb14f8a-3959-4976-8130-056dc4b974bd"
+    ],
+    "user": {
+      "id": "4bac4a75-23cb-4a1d-8f08-e8585369e5f2",
+      "username": "chicken",
+      "userImage": "http://localhost:1234/userImgBanana.971fd618.png?1712302038161"
+    },
+    "rating": {
+      "upvotes": [
+        "4bac4a75-23cb-4a1d-8f08-e8585369e5f2",
+        "443a3f15-537e-4383-97b7-760a84066b26",
+        "6018158b-2d91-4d5f-b45a-2ab27f7a373b"
+      ],
+      "downvotes": []
+    }
+  }
+]

@@ -1,0 +1,36 @@
+.main-nav {
+  border-right: 1px solid var(--neut);
+  overflow-y: auto;
+  gap: 1rem;
+}
+
+.main-nav .links ul{
+  gap: 0.5rem;
+}
+
+.main-nav .links a {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--text);
+  text-decoration: none;
+  background-color: transparent;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+}
+
+.main-nav .links a:hover {
+  background-color: var(--neutLighter);
+}
+
+.main-nav .links a.current{
+  background-color: var(--neutLight);
+}
+
+.main-nav footer {
+  justify-self: end;
+}
+
+.main-nav .dropdowns {
+  flex-grow: 1;
+}

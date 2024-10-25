@@ -1,0 +1,201 @@
+/* Styling for landing page goes here */
+.landing-page-container{
+    width: 300px;
+    margin:auto;
+    padding: 2rem;
+}
+
+.landing-page-title{
+    display:flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.landing-page-title > h1{
+    font-size: 32px;
+    margin-bottom: 2rem;
+}
+
+.landing-page-content > h2, h3{
+    font-size: 18px;
+}
+
+.landing-page-content > * {
+    margin-bottom: 2rem; 
+}
+
+
+#createAccountBtn{
+    background-color: var(--color);
+    color: var(--onColor)!important;
+    border:none;
+    cursor: pointer;
+    border-radius: 30px;
+    color: var(--bg);
+    width: 250px;
+    padding: 0.8rem;
+    font-size: 1rem;
+    font-weight: bolder;
+}
+
+#signInBtn{
+    border: 2px solid var(--color);
+    cursor: pointer;
+    border-radius: 30px;
+    color: var(--color);
+    width: 250px;
+    padding: 0.8rem;
+    font-weight: bolder;
+    font-size: 1rem;
+    background-color: var(--bg);
+}
+.form-container.hide{
+    display: none;
+}
+
+.form-container {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: var(--bgUnfocus);
+    top:0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    padding-top: 20vmin;
+}
+
+.xmark-close{
+    color:var(--text);
+    position:absolute;
+    top: 2rem;
+    left: 1rem;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+
+}
+
+.form-container form{
+    height: fit-content;
+
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: var(--bgUnfocus) 0px 7px 29px 0px;
+    border-radius: 0.5rem;
+    width: 350px;
+    /* height: 400px; */
+    background-color: var(--bg);
+    padding: 2rem;
+}
+
+.form-container form.hide{
+    display:none;
+}
+
+.log-in-form > h2{
+    margin-bottom: 1rem;
+}
+
+.landing-page-container input{
+    background-color: transparent;
+}
+
+.landing-page-container .input-wrapper{
+    margin-bottom: 1rem;
+    border: 1px solid var(--neutDark);
+    padding: 0.25rem 0.5rem;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.landing-page-container .input-wrapper:first-of-type{
+    margin: 1rem 0;
+}
+
+.landing-page-container input{
+    padding: 0.5rem;
+    flex-grow: 1;
+    border: none;
+}
+
+.account-details{
+    margin-top: 1.5rem;
+    font-size: 12px;
+}
+
+.account-details > a{
+    font-size: 12px;
+}
+
+#createAccountFormBtn, #logInBtn{
+    margin-top: 2rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+    background-color: var(--color);
+    color:var(--onColor);
+    padding: 0.8rem;
+    font-weight: bolder;
+    width: 300px;
+}
+
+img{
+    width:70px;
+}
+
+.select-user-img{
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 300px;
+    min-height: 75px; 
+}
+
+@media (prefers-color-scheme: dark) {
+  #signInBtn{
+    border-color: var(--text);
+    color: var(--text);
+  }
+}
+
+@media screen and (min-width: 960px) {
+    .landing-page-container{
+        padding: 6rem;
+        margin-left: 3rem;
+        width: 5px;
+        height: 5px;
+    }
+
+    .landing-page-title{
+        width: 600px;
+        height: 400px;
+        
+    }
+
+    .landing-page-title > h1{
+        font-size: 52px;
+        margin-bottom: 2rem;
+    }
+
+    .landing-page-content > h2, h3{
+        font-size: 32px;
+    }
+
+    #signInBtn, #createAccountBtn{
+        width: 300px;
+        
+    }
+
+    .create-account-form, .log-in-form{
+        width: 450px;
+        /* height: 400px; */
+       
+    }   
+   
+}

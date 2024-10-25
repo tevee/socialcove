@@ -1,0 +1,26 @@
+.users-wrapper {
+    flex-direction: column;
+}
+
+.user-list .pill{
+    height: 2.5rem;
+}
+
+.user-list > a {
+    display: block;
+}
+
+.user-list-header {
+    line-height: 1.4;
+}
+
+.user-list-footer-lists {
+    flex-direction: row;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.user-date-created {
+    font-size: 0.9rem;
+    font-weight: 600;
+}

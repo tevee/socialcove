@@ -1,0 +1,77 @@
+.main-header {
+  background-color: var(--bg);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+}
+
+.user-nav {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.user-nav > * {
+  cursor: pointer;
+}
+
+.main-header .pill {
+  background-color: transparent;
+}
+
+.main-header nav a {
+  display: flex;
+  align-items: center;
+}
+
+.profile-menu {
+  position: fixed;
+  right: 1rem;
+  top: var(--header-height);
+  padding: 1rem 0;
+  border-radius: 5px;
+  width: 250px;
+
+  background-color: var(--bg);
+  box-shadow: 0 0 5px var(--neut);
+
+  opacity: 0;
+  animation: fadeIn 0.2s ease forwards;
+}
+
+.profile-menu hr {
+  margin: 0.5rem 0;
+}
+
+.profile-menu .user a,
+.profile-menu button {
+  padding: 1rem 1rem;
+  display: block;
+  width: 100%;
+  text-align: left;
+}
+
+.profile-menu button:hover {
+  background-color: var(--neutLight);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.profile-menu button {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.profile-menu #delete-account {
+  color: var(--error);
+}

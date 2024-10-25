@@ -1,0 +1,104 @@
+[
+  {
+    "name": "Food",
+    "color": "#008080",
+    "icon": "lunch_dining",
+    "category": "Food"
+  },
+  {
+    "name": "Music",
+    "color": "#7F62D8",
+    "icon": "music_note",
+    "category": "Music"
+  },
+  {
+    "name": "Frontend",
+    "color": "#FFA500",
+    "icon": "code",
+    "category": "Programming"
+  },
+  {
+    "name": "Backend",
+    "color": "#2E8B57",
+    "icon": "terminal",
+    "category": "Programming"
+  },
+  {
+    "name": "Art",
+    "color": "#4682B4",
+    "icon": "palette",
+    "category": "Art"
+  },
+  {
+    "name": "Overwatch",
+    "color": "#6017bc",
+    "icon": "sports_esports",
+    "category": "Gaming"
+  },
+  {
+    "name": "Animal",
+    "color": "#819f84",
+    "icon": "pets",
+    "category": "Animal"
+  },
+  {
+    "name": "Travel",
+    "color": "#4cafa9",
+    "icon": "explore",
+    "category": "Traveling"
+  },
+  {
+    "name": "makemesmile",
+    "color": "#8ae169",
+    "icon": "sentiment_very_satisfied",
+    "category": "joyful"
+  },
+  {
+    "name": "heartwarming",
+    "color": "#cfe10b",
+    "icon": "favorite",
+    "category": "joyful"
+  },
+  {
+    "name": "Depressed",
+    "color": "#d7e476",
+    "icon": "sentiment_sad",
+    "category": "Sad"
+  },
+  {
+    "name": "mildlyinfuriating",
+    "color": "#d63225",
+    "icon": "sentiment_stressed",
+    "category": "Frustration"
+  },
+  {
+    "name": "karen",
+    "color": "#c1645f",
+    "icon": "sentiment_extremely_dissatisfied",
+    "category": "Frustration"
+  },
+  {
+    "name": "Aww",
+    "color": "#e997d2",
+    "icon": "sentiment_excited",
+    "category": "Cuteness"
+  },
+  {
+    "name": "Sweden",
+    "color": "#5352cc",
+    "icon": "flag",
+    "category": "Countries"
+  },
+  {
+    "name": "facepalm",
+    "color": "#76a3d6",
+    "icon": "pan_tool",
+    "category": "Stupidity"
+  },
+  {
+    "name": "explainlikeimfive",
+    "color": "#f405cd",
+    "icon": "live_help",
+    "category": "Explanation"
+  }
+]

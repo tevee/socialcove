@@ -1,0 +1,45 @@
+.noticeboard {
+  background-color: var(--neutLighter);
+  border-radius: 5px;
+  padding: 1rem 0;
+  margin-top: 2rem;
+}
+
+.noticeboard > *,
+.noticeboard a {
+  padding: 0.5rem 1rem;
+}
+
+.noticeboard li.bottom-border {
+  padding: 0.5rem 0;
+  margin: 0.5rem 1rem;
+}
+
+.bottom-border {
+  border-bottom: 1px solid var(--neut);
+}
+
+.light .bottom-border {
+  border-bottom: 1px solid var(--neutLight);
+}
+
+.noticeboard h2 {
+  font-size: 1rem;
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 0.2pt;
+}
+
+.noticeboard > ol {
+  list-style-position: inside;
+  padding: 0;
+}
+
+.noticeboard a{
+  /* text-decoration: inherit; */
+  color: var(--text);
+}
+
+li.unstyled {
+  list-style-type: none;
+}

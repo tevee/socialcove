@@ -1,0 +1,184 @@
+
+:root {
+  --bg: white;
+  --text: black;
+  --neutDark: rgb(112, 112, 112);
+  --neutLight: rgb(222, 222, 222);
+  --neutLighter: rgb(241, 241, 241);
+  --neutOpaque: rgba(0, 0, 0, 0.25);
+  --neut: rgb(202, 202, 202);
+  --color: rgb(255, 51, 0);
+  --onColor: white;
+
+  --bgUnfocus: rgba(0, 0, 0, 0.3);
+
+  --error: red;
+
+  --upvote: var(--color);
+  --downvote: #6A5CFF;
+
+  --neutHueLighter: #dde8fe;
+  --neutHueLight: #d0dbf0;
+  --neutHue: #014a84;
+  --neutHueDark: #003763;
+  --neutHueDarker: #003763;
+  --onHue: white;
+
+  --create-post-page-bg: #dae0e6;
+  --create-post-page-noticeboard: var(--bg);
+
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+  --bg: #0b1416;
+  --text: white;
+  --neutDark: #627e86;
+  --neutLight: #223338;
+  --neutLighter: #152124;
+  --neutOpaque: rgba(255, 255, 255, 0.3);
+  --neut: #2a3f45;
+  --color: rgb(255, 51, 0);
+  
+
+  --neutHueLighter: #252b38;
+  --neutHueLight: #303746;
+  --neutHue: #0058e6;
+  --neutHueDark: #0080ff;
+  --neutHueDarker: #003763;
+
+  --create-post-page-bg: var(--bg);
+  --create-post-page-noticeboard: var(--neutLighter);
+}
+}
+
+* {
+box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: var(--bg);
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+.list-heading {
+  text-transform: uppercase;
+  font-weight: normal;
+  color: var(--neutDark);
+  font-size: 1rem;
+  margin: 0;
+}
+
+.img-icon {
+  display: grid;
+  place-content: center;
+  height: 30px;
+  aspect-ratio: 1 /1;
+  background-color: var(--color);
+  border-radius: 50%;
+}
+
+li a {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid var(--neut);
+  margin: 0.75rem 0;
+}
+
+a.unstyle {
+  text-decoration: none;
+  color: var(--text);
+}
+
+.pill {
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  border: none;
+  background-color: var(--neutLight);
+  border-radius: 2rem;
+  cursor: pointer;
+}
+ 
+
+.pill small, .pill a {
+  display: inherit;
+  align-items: inherit;
+  gap: inherit;
+}
+
+.pill.long{
+  padding: 0 1rem
+}
+
+.pill.hover:hover {
+  /* !importwnt to make it possible to override bg color of pill but keep hover */
+  background-color: var(--neut) !important;
+}
+
+.pill .icon {
+  font-size: 1.5rem;
+}
+
+.boxed {
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+}
+
+.boxed.neut {
+  background-color: var(--neutLight);
+}
+
+.main-nav {
+  flex-direction: column;
+  padding: 1rem;
+}
+
+/* Text editor styling */
+code {
+  /* padding: 2px 4px;
+  font-size: 85%;
+  background-color: #f0f0f0;
+  border-radius: 3px; */
+
+  background-color: #F6F7F8;
+  caret-color: rgb(0, 0, 0);
+  color: #FF006D;
+  font-family: "Noto Mono", Menlo, Monaco, Consolas, monospace;
+  padding: 0.1em 0.2em;
+  font-size: 0.8em;
+  border-radius: 3px;
+}
+
+blockquote {
+  border-left: 4px solid #ccc;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding-left: 16px;
+}
+
+pre {
+  font-family: Noto Mono, Menlo, Monaco, Consolas, monospace;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+  background: #F6F7F8;
+  color: #1c1c1c;
+  margin: 15px 0;
+  padding: 8px;
+}

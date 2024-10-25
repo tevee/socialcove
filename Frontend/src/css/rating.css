@@ -1,0 +1,46 @@
+.rating{
+    cursor: default;
+}
+.upvote-active .rating-count,
+.downvote-active .rating-count,
+.upvote-active svg,
+.downvote-active svg {
+    color: var(--onColor) !important;
+    fill: var(--onColor) !important;
+}
+
+.upvote-active {
+    background-color: var(--upvote);
+}
+
+.downvote-active {
+    background-color: var(--downvote);
+}
+
+.rating svg{
+    fill: inherit;
+}
+
+.downvote-active .downvote svg .fill,
+.upvote-active .upvote svg .fill{
+    opacity: 1;
+}
+
+
+.rating svg{
+    height: 1rem;
+}
+
+.rating button{
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    display: grid;
+    place-content: center;
+    padding: 0.5rem;
+    border-radius: 50%;
+}
+
+.rating button:hover{
+    background-color: var(--neutOpaque);
+}

@@ -1,0 +1,58 @@
+.ql-toolbar.ql-snow.anthme-toolbar, .ql-container.ql-snow.anthme-editor-container {
+    border: none;
+}
+
+.ql-toolbar {
+    background-color: var(--neutLight);
+}
+
+.ql-snow .ql-stroke{
+    stroke: var(--text) !important;
+}
+
+.ql-snow .ql-fill{
+    fill: var(--text) !important;
+}
+
+/* inside the text editor */
+.ql-editor {
+    min-height: 122px;
+}
+
+.ql-toolbar.ql-snow .ql-formats button {
+    height: 32px;
+    width: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.5;
+}
+
+.ql-toolbar.ql-snow .ql-formats button:hover {
+    background-color: #e0e1e2;
+    /* filter: invert(62%) sepia(8%) saturate(119%) hue-rotate(160deg) brightness(87%) contrast(85%); */
+    color: #878A8C;
+}
+
+/* inline code styling */
+.anthme-editor-container.ql-snow > .ql-editor code {
+    background-color: #F6F7F8;
+    caret-color: rgb(0, 0, 0);
+    color: #FF006D;
+    font-family: "Noto Mono", Menlo, Monaco, Consolas, monospace;
+    padding: 0.1em 0.2em;
+    font-size: 0.8em;
+    border-radius: 3px;
+}
+
+/* code-block styling */
+.anthme-editor-container.ql-snow > .ql-editor > .ql-syntax {
+    font-family: Noto Mono, Menlo, Monaco, Consolas, monospace;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    background: #F6F7F8;
+    color: #1c1c1c;
+    margin: 15px 0;
+    padding: 8px;
+}

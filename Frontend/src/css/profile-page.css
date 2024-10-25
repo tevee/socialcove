@@ -1,0 +1,100 @@
+/* Styling for profilepage goes here */
+
+.user-info{
+    display: flex;
+    align-items: center;
+    padding-top: 2rem; 
+    justify-content: space-between;
+}
+.user-info > div{
+    display:flex;
+    align-items: center;
+}
+
+.user-info > div > h2{
+    margin-left: 1rem;
+}
+.comment-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.post-title{
+ margin-bottom: 0.5rem;   
+}
+
+.delete-btn{
+  height: 2rem;
+  aspect-ratio: 1/1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 0.2rem;
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid var(--neut);
+  border: none;
+  border-radius: 1rem;
+}
+
+.delete-btn:hover{
+  background-color: var(--bg);
+}
+
+.delete-btn span{
+  color: var(--error) !important;
+
+}
+
+button.del-account-btn{
+    background-color: var(--neutLighter);
+}
+
+button.del-account-btn:hover{
+    background-color: var(--neutLight);
+}
+
+.del-account-btn{
+    padding: 0.8rem;
+    border-radius: 30px;
+    border:none;
+    cursor: pointer;
+    color: var(--error);
+}
+
+.user-interactions-overview{
+    display: flex;
+    width: 200px; 
+    margin-top: 2rem;
+}
+
+.user-interactions-overview > a{
+    text-decoration: none;
+    color: var(--text);
+    padding: 0.7rem;
+    border-radius: 30px;
+    font-size: 14px;
+}
+
+
+.user-interactions-overview > a:hover{
+    text-decoration: underline;
+}
+
+.add-grey-bg-color{
+    background-color: var(--neutLight);
+    text-decoration: underline;
+}
+
+.comment-wrapper > .p-c-img-div {
+    gap: 0;
+}
+
+.p-c-post-title::before {
+    content: "•";
+    padding: 0 0.25rem;
+}
+
+.category-href.p-c-post-title::after {
+    content: none;
+}
